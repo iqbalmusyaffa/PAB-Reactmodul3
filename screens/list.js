@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
       alignItems: 'center',
       margin: 20,
-      marginTop:100,
+      marginTop:160,
       backgroundColor: 'white',
       borderRadius: 20,
       padding: 30,
