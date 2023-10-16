@@ -84,7 +84,7 @@ const datas = [
 // Functional Component
 const List = () => {
   // modal contoh
-  const [modalVisible, setModalVisible] = useState(false);
+  const [ModalVisible, setModalVisible] = useState(false);
   const [itemSelect, setItemSelect] = useState('variabel kosong');
 
   console.log(itemSelect);
@@ -97,9 +97,9 @@ const List = () => {
           <Modal
           animationType="none"
           transparent={true}
-          visible={modalVisible}
+          visible={ModalVisible}
           onRequestClose={() =>{
-          setModalVisible(!modalVisible);
+          setModalVisible(!ModalVisible);
           }}>
             <View style={styles.modalView}>
             <Image style={styles.modalImage} source={{ uri: itemSelect.image }} />
